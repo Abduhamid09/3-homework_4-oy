@@ -19,12 +19,27 @@ let n = parseInt(Math.random() * 20)
 console.log(`n = ${n}`)
 let count = 0
 for (let i = 0; i <= n; i++) {
-    console.log(n-i)
+    console.log(n - i)
 }
 console.log(`n = ${n}`)
 for (let i = 0; i <= n; i++) {
     console.log(i)
     count += i
 }
-console.log('1dan n gacha sonlar yigindisi '+ count);
+console.log('1dan n gacha sonlar yigindisi ' + count);
+let b = parseInt(Math.random() * 20)
+console.log(`b = ${b}`)
+let count2 = 0
+let summa = 0
+for (let t = 0; t <= b; t++) {
+    if (b % t == 0) {
+        console.log(t)
+        count2++
+        summa = summa + t
+    }
+}
+console.log(`count2 = ${count2}`)
+console.log(`summa = ${summa}`)
+
+
 
